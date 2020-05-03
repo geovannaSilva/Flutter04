@@ -1,10 +1,12 @@
 import 'package:bytebank2/components/transaction_auth_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:bytebank2/screens/dashboard.dart';
+import 'package:uuid/uuid.dart';
 
 
 void main() {
   runApp(Bytebank2());
+  print(Uuid().v4());
 }
 
 class Bytebank2 extends StatelessWidget {
